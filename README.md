@@ -1603,7 +1603,7 @@ from glob import glob
 ```
 
 ```python
-<list> = listdir(path='.')          # Returns filenames located at path.
+<list> = listdir(path='')          # Returns filenames located at path.
 <list> = glob('<pattern>')          # Returns paths matching the wildcard pattern.
 ```
 
